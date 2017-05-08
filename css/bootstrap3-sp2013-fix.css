@@ -1,0 +1,32 @@
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+* {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+    font-size: 13px !important;
+    line-height: initial;
+}
+
+img {
+    vertical-align: initial;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-top: 1px solid #C6C6C6;
+}
