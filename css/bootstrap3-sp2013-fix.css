@@ -31,6 +31,10 @@ hr {
     border-top: 1px solid #C6C6C6;
 }
 
-a {
+.ms-cui-ribbon a, .ms-cui-menu a, .ms-cui-toolbar-toolbar a, .ms-core-menu-item a {
     text-decoration: none !important;
+}
+
+.ms-core-suiteLink-a, .ms-core-suiteLink-a:visited, a.ms-core-suiteLink-disabled {
+    color: #fff !important;
 }
